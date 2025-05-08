@@ -1,0 +1,48 @@
+    .table-container {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table.striped th {
+        font-weight: 600;
+        color: #444;
+        background-color: #f2f2f2;
+    }
+
+    table.striped td {
+        color: #333;
+        vertical-align: middle;
+    }
+
+    .modal {
+        border-radius: 16px;
+        overflow: hidden;
+        animation: fadeInUp 0.3s ease;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .modal-content h4 {
+        font-weight: 600;
+    }
+
+    .btn-floating {
+        margin-right: 5px;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }
